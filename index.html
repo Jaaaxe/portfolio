@@ -3,9 +3,135 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio" />
+    <meta name="keywords" content="Yasmeen, developer, writer" />
+    <meta name="author" content="Yasmeen M." />
+
     <title>Portfolio</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
   </head>
   <body>
-    <h1>Hello World</h1>
+    <div id="hero" class="row">
+      <div class="column">
+        <lottie-player
+          src="https://assets1.lottiefiles.com/packages/lf20_brqlxnkj.json"
+          background="transparent"
+          speed="1"
+          style="width: 100%; height: 100%"
+          loop
+          autoplay
+        ></lottie-player>
+      </div>
+      <div class="column" id="intro">
+        <h1>Hello World!</h1>
+        <h2>My name is Yas and I'm a</h2>
+        <div class="row">
+          <a href="#writer"><button>Writer</button></a>
+          <button>Developer</button>
+          <button>Designer</button>
+        </div>
+      </div>
+      <lottie-player
+        src="https://assets3.lottiefiles.com/packages/lf20_0abzosue.json"
+        background="transparent"
+        speed="1"
+        style="width: 100%; height: 60px"
+        loop
+        autoplay
+        class="chevron"
+      ></lottie-player>
+    </div>
+    <div class="row" id="about">
+      <div class="container">
+        <h2>THE TL;DR.</h2>
+        <p>
+          I am passionate about designing websites that users and clients love
+          and writing documents that are clear and concise. One of my biggest
+          priorities is developing a personal connection with my clients to
+          reach project goals together.
+        </p>
+        <p>
+          I enjoy being part of a team that aspires to achieve big dreams
+          together, develops innovative solutions, and encourages personal
+          growth.
+        </p>
+        <p>Did I mention I like cats? I like cats.</p>
+      </div>
+    </div>
+
+    <div class="row" id="writer">
+      <div class="container">
+        <h2 class="row">What have I written?</h2>
+
+        <div class="column">
+          <img src="./assets/icons/technical.svg" />
+          <h3>Technical Documents</h3>
+          <p>
+            Personalised user documents and tutorials for platforms such as
+            <a
+              href="./assets/pdfs/Shopify Guide - Care Instructions.pdf"
+              target="_blank"
+              >Shopify</a
+            >,
+            <a
+              href="./assets/pdfs/Woocommerce Guide - Intro.pdf"
+              target="_blank"
+              >WooCommerce</a
+            >,
+            <a href="./assets/pdfs/BigCommerce Tutorial.pdf" target="_blank"
+              >BigCommerce</a
+            >,
+            <a
+              href="./assets/pdfs/Wordpress - Site Update Guide.pdf"
+              target="_blank"
+              >Wordpress</a
+            >, and custom systems.
+          </p>
+        </div>
+
+        <div class="column">
+          <img src="./assets/icons/article.svg" />
+          <h3>Articles</h3>
+          <p>
+            Historical and tech articles for Medianet Entertainment Guide, dive
+            blog for
+            <a href="https://www.oceanjunkies.com.mv/blog/" target="_blank"
+              >Ocean Junkies</a
+            >, and travel articles for
+            <a href="https://maldivesislandguide.com/stories" target="_blank"
+              >Maldives Island Guide</a
+            >
+            and Resort Life magazine under the pseudonym Jaze.
+          </p>
+        </div>
+
+        <div class="column">
+          <img src="./assets/icons/research.svg" />
+          <h3>Research</h3>
+          <p>
+            Academic research done in the field of Computer Science including
+            data collection and analysis. Click
+            <a
+              href="https://github.com/Jaaaxe/packle/blob/main/Packle%20Report.pdf"
+              target="_blank"
+              >here</a
+            >
+            to view research conducted to implement a Discord study bot
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <footer class="row">
+      <a
+        href="https://www.linkedin.com/in/yasmeen-mariyam-080110221/"
+        target="_blank"
+        >LinkedIn</a
+      >
+      <a href="https://github.com/Jaaaxe/" target="_blank">Github</a>
+      <a href="mailto:mariyamyasmeeen@gmail.com">Email</a>
+      <a href="./credits.html" target="_blank">Credits</a>
+    </footer>
   </body>
 </html>
