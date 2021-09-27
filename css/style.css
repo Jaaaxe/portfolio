@@ -205,10 +205,12 @@ footer a:hover {
 
 #credits div {
   padding: 15px 0;
+  text-align: center;
 }
 
 #credits h3 {
   color: var(--medium-purple);
+  text-align: center;
 }
 
 h3#credit-name {
