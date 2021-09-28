@@ -188,7 +188,7 @@ footer.row {
 
 footer a {
   text-decoration: none;
-  padding: 0 20px;
+  padding: 0 40px;
 }
 
 footer a:hover {
@@ -284,11 +284,19 @@ h3#credit-name {
   }
 
   footer.row {
-    flex-wrap: nowrap;
-    height: 150px;
+    flex-direction: row;
+    height: 50px;
   }
 
   footer a {
-    padding: 5px 0px;
+    padding: 5px 5%;
+  }
+
+  .chevron {
+    padding-bottom: 10px;
+  }
+
+  #intro button:nth-child(2) {
+    margin-right: 0px;
   }
 }
